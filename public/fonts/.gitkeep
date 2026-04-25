@@ -1,0 +1,2 @@
+Place WOFF2, WOFF, or TTF font files here.
+Load via @font-face in CSS using `/fonts/filename.ext`.

@@ -1,0 +1,398 @@
+[
+  {
+    "id": 1,
+    "question": "What is Ivo's sexual orientation?",
+    "answers": ["Gay", "Straight", "Unicorn", "Unknown"],
+    "correctAnswer": "Gay",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 2,
+    "question": "What car does Bogi drive?",
+    "answers": ["Audi", "BMW", "He don't drive, no money", "Metro"],
+    "correctAnswer": "Audi",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 3,
+    "question": "Where is the best place for lunch?",
+    "answers": ["BILLA", "Expensive restaurant", "FoodMood", "Baker Brothers"],
+    "correctAnswer": "BILLA",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 16,
+    "question": "Who is Bo's most beloved team member?",
+    "answers": ["Icaka", "Nasko", "Rado", "Bogi"],
+    "correctAnswer": "Icaka",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 17,
+    "question": "What does Yavor value the most?",
+    "answers": ["Personal Space", "Food", "TDP", "Pokemon"],
+    "correctAnswer": "Personal Space",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 18,
+    "question": "What Dacia model does Sasheto drive?",
+    "answers": ["Duster", "Logan", "Jogger", "Bigster"],
+    "correctAnswer": "Duster",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 19,
+    "question": "What does Bogi fear the most?",
+    "answers": ["Niki PR review", "Guild Presentation", "Audi broke", "Home office decline"],
+    "correctAnswer": "Niki PR review",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 20,
+    "question": "Which food does Teri refuse to eat?",
+    "answers": ["Cottage cheese", "Sugar", "Kiwi", "Burgers"],
+    "correctAnswer": "Sugar",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 21,
+    "question": "What is the most common spice that Rado adds to his coffee?",
+    "answers": ["Salt", "Sugar", "Cinnamon", "Horseradish"],
+    "correctAnswer": "Cinnamon",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 22,
+    "question": "What is Tsvety's preferred music taste?",
+    "answers": ["Techno", "Mumble Rap", "Pop Folk", "Eurodance"],
+    "correctAnswer": "Pop Folk",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 23,
+    "question": "What model is Olga's personal car?",
+    "answers": ["BMW", "VW Golf", "Toyota", "She doesn't drive"],
+    "correctAnswer": "Toyota",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 24,
+    "question": "What is the transport of choice that Hristo uses to go to work?",
+    "answers": ["Bike", "Car", "Public transport", "Metro"],
+    "correctAnswer": "Bike",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 25,
+    "question": "What is Nasko's favorite summer drink?",
+    "answers": ["Frappe", "Coca Cola", "Lemonade", "Water"],
+    "correctAnswer": "Frappe",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
+    "id": 26,
+    "question": "In what year did Olga take her driving license?",
+    "answers": ["Never", "2023", "2025", "2021"],
+    "correctAnswer": "2023",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 27,
+    "question": "Who is the coca Instagram star with the most followers to this day?",
+    "answers": ["Olga", "Bo", "Tsvety", "Ivo"],
+    "correctAnswer": "Olga",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 28,
+    "question": "Which is the hometown of Olga in Ukraine?",
+    "answers": ["Kiev", "Odesa", "Melitopol", "Lvov"],
+    "correctAnswer": "Melitopol",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 29,
+    "question": "Which coca team member finished the last IT Talents season before the project turned into its end?",
+    "answers": ["Teri", "Tsvety", "Hristo", "Bo"],
+    "correctAnswer": "Teri",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 30,
+    "question": "Which coca team members both finished their High School of Construction, Architecture and Geodesy?",
+    "answers": ["Tsvety + Ivo", "Teri + Nasko", "Yavor + Ivo", "Rado + Bogi"],
+    "correctAnswer": "Teri + Nasko",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 31,
+    "question": "What's the average running speed of Hristo in a 21km marathon?",
+    "answers": ["4:27", "5:23", "4:17", "5:05"],
+    "correctAnswer": "4:27",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 32,
+    "question": "How many gramophones does Hristo possess as we currently know?",
+    "answers": ["1-3", "5-7", "8-10", "12+"],
+    "correctAnswer": "8-10",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 33,
+    "question": "Which team member set on fire the village community sheep pen by mistake while playing Yu-Gi-Oh cards late at night?",
+    "answers": ["Nasko", "Bogi", "Rado", "Hristo"],
+    "correctAnswer": "Nasko",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 34,
+    "question": "Which team member studied veterinary for 3 years to become a doctor?",
+    "answers": ["Nasko", "Tsvety", "Bo", "Olga"],
+    "correctAnswer": "Nasko",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 35,
+    "question": "In which game did Nasko make the most black money by selling in-game items for real money?",
+    "answers": ["Diablo", "World of Warcraft", "Lineage II", "Dota 2"],
+    "correctAnswer": "Lineage II",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 36,
+    "question": "Which team member worked in 'Toplofikacia' Sofia as part of his working journey?",
+    "answers": ["Rado", "Nasko", "Bogi", "Yavor"],
+    "correctAnswer": "Rado",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 37,
+    "question": "Which team member is notorious for stealing furniture as part of his young years?",
+    "answers": ["Hristo", "Bogi", "Sasho", "Rado"],
+    "correctAnswer": "Rado",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 38,
+    "question": "Which restaurant was Olga working in her pre project coordinator days?",
+    "answers": ["Fake French", "Victoria", "Happy", "Berozka"],
+    "correctAnswer": "Happy",
+    "difficulty": 2,
+    "pool": 2,
+    "category": "Team Trivia"
+  },
+  {
+    "id": 39,
+    "question": "How many car crash incidents Bogi was part of?",
+    "answers": ["1", "3", "2", "0"],
+    "correctAnswer": "0",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 40,
+    "question": "How is Nasko village named?",
+    "answers": ["Lesicheri", "Duskot", "Momin Sbor", "Novo Selo"],
+    "correctAnswer": "Lesicheri",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 41,
+    "question": "Because of which game was Nasko about to be dropped out from 12th grade in high school?",
+    "answers": ["Diablo II", "DotA", "World of Warcraft", "Need for Speed"],
+    "correctAnswer": "Diablo II",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 42,
+    "question": "Which was the first cellphone Hristo bought himself back in the days?",
+    "answers": ["Nokia 3310", "Motorola Razer", "Siemens M45", "iPhone"],
+    "correctAnswer": "Nokia 3310",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 43,
+    "question": "How many motors Hristo owns?",
+    "answers": ["2", "1", "3", "0"],
+    "correctAnswer": "2",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 44,
+    "question": "What is Hristo's personal best on bench press in kilograms?",
+    "answers": ["70-80", "90-100", "110-120", "130-140"],
+    "correctAnswer": "70-80",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 45,
+    "question": "Which year did Hristo decide to migrate to Sofia?",
+    "answers": ["2010", "2012", "2009", "2011"],
+    "correctAnswer": "2010",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 46,
+    "question": "Which coca team member was chasing a bat in the room to get it out of the house?",
+    "answers": ["Bogi", "Rado", "Hristo", "Nasko"],
+    "correctAnswer": "Bogi",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 47,
+    "question": "Who was given a free trip to Germany in order to testify in court?",
+    "answers": ["Bogi", "Teri", "Bo", "Tsvety"],
+    "correctAnswer": "Bogi",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 48,
+    "question": "Who spent three months of the COVID period in a hotel for free, without money?",
+    "answers": ["Bo", "Yavor", "Rado", "Bogi"],
+    "correctAnswer": "Bogi",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 49,
+    "question": "Which CoCa member had their first job as a hotel receptionist at the seaside?",
+    "answers": ["Hristo", "Cveti", "Olga", "Bo"],
+    "correctAnswer": "Hristo",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 50,
+    "question": "Which CoCa member used to take their grandmother's blood pressure pills as a child?",
+    "answers": ["Nasko", "Yavor", "Rado", "Hristo"],
+    "correctAnswer": "Hristo",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 51,
+    "question": "Which CoCa member wants to have three daughters?",
+    "answers": ["Tsvety", "Ivo", "Sasho", "Olga"],
+    "correctAnswer": "Ivo",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 52,
+    "question": "Which CoCa member secretly goes camping in the mountains with their dog while their wife is at work, because otherwise she wouldn't let them?",
+    "answers": ["Rado", "Bogi", "Ivo", "Nasko"],
+    "correctAnswer": "Ivo",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 53,
+    "question": "Which CoCa member has fallen asleep drunk in the snow?",
+    "answers": ["Teri", "Icaka", "Bo", "Ivo"],
+    "correctAnswer": "Ivo",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 54,
+    "question": "Which CoCa member started learning Java in 2017?",
+    "answers": ["Bogi", "Sasho", "Tsvety", "Nasko"],
+    "correctAnswer": "Sasho",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 55,
+    "question": "Which CoCa member has trained karate for 3 years?",
+    "answers": ["Olga", "Rado", "Sasho", "Bo"],
+    "correctAnswer": "Sasho",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 56,
+    "question": "Which CoCa member has done bungee jumping?",
+    "answers": ["Teri", "Icaka", "Sasho", "Bogi"],
+    "correctAnswer": "Sasho",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  }
+]

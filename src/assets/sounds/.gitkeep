@@ -1,0 +1,2 @@
+Place sound files imported by components here.
+Import them: `import sfx from '../assets/sounds/correct.mp3';`

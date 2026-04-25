@@ -1,0 +1,2 @@
+Place images imported by components here.
+Import them: `import logo from '../assets/images/logo.png';`
