@@ -448,5 +448,14 @@
     "difficulty": 3,
     "pool": 3,
     "category": "Final Stage"
+  },
+  {
+    "id": 63,
+    "question": "Tsvety received her first '2ka' in school, but in which subject?",
+    "answers": ["History", "Math", "Biology", "Geography"],
+    "correctAnswer": "History",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
   }
 ]
