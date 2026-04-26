@@ -8,6 +8,8 @@ import StageTransitionScreen from './components/StageTransitionScreen.jsx';
 import { useGameState } from './hooks/useGameState.js';
 import { GAME_STATUS } from './utils/gameLogic.js';
 
+const APP_VERSION = '1.0.0';
+
 export default function App() {
   const game = useGameState();
   const [introDone, setIntroDone] = useState(false);
@@ -16,6 +18,7 @@ export default function App() {
     return (
       <div className="app">
         <IntroScreen onContinue={() => setIntroDone(true)} />
+        <footer className="app-footer">v{APP_VERSION}</footer>
       </div>
     );
   }
@@ -54,6 +57,7 @@ export default function App() {
           onHome={game.resetToStart}
         />
       )}
+      <footer className="app-footer">v{APP_VERSION}</footer>
     </div>
   );
 }
