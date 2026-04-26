@@ -704,8 +704,12 @@ body {
 /* -------- End Screens -------- */
 .end-screen { flex-direction: column; gap: 1.25rem; text-align: center; }
 .game-over-screen {
+  width: 100vw;
+  min-height: 100vh;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 2rem 1.5rem 5.5rem;
   justify-content: flex-end;
-  padding-bottom: 5.5rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
