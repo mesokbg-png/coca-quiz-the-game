@@ -117,6 +117,15 @@
     "category": "Office Lore"
   },
   {
+    "id": 57,
+    "question": "Which team member does Icaka make fun of for not knowing how to ride a bike?",
+    "answers": ["Olga", "Tsvety", "Bo", "Teri"],
+    "correctAnswer": "Olga",
+    "difficulty": 1,
+    "pool": 1,
+    "category": "Office Lore"
+  },
+  {
     "id": 26,
     "question": "In what year did Olga take her driving license?",
     "answers": ["Never", "2023", "2025", "2021"],
@@ -391,6 +400,51 @@
     "question": "Which CoCa member has done bungee jumping?",
     "answers": ["Teri", "Icaka", "Sasho", "Bogi"],
     "correctAnswer": "Sasho",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 58,
+    "question": "Which pet does Teri want to have?",
+    "answers": ["Talking parrot", "Raccoon", "Little puppy", "She doesn't want pets"],
+    "correctAnswer": "Little puppy",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 59,
+    "question": "How old was Olga when she tried tripe soup for the first time?",
+    "answers": ["Never", "22", "23", "24"],
+    "correctAnswer": "Never",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 60,
+    "question": "What was Olga's first airplane travel destination?",
+    "answers": ["Rome", "Barcelona", "Paris", "Berlin"],
+    "correctAnswer": "Barcelona",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 61,
+    "question": "Which CoCa member has killed a mouse?",
+    "answers": ["Teri", "Tsvety", "Olga", "Bogi"],
+    "correctAnswer": "Tsvety",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 62,
+    "question": "Which CoCa member loves baby food (and often buys baby biscuits)?",
+    "answers": ["Nasko", "Rado", "Tsvety", "Icaka"],
+    "correctAnswer": "Tsvety",
     "difficulty": 3,
     "pool": 3,
     "category": "Final Stage"

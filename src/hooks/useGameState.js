@@ -203,12 +203,10 @@ export function useGameState() {
         setCurrentWinnings(fallback);
         setGameStatus(GAME_STATUS.GAME_OVER);
       } else {
-        const stageStartOffset = offsetForStage(stages, stageIndex);
-        const stageFallback =
-          stageStartOffset === 0 ? 0 : computeWinAfter(stageStartOffset - 1);
+        const previousQuestionWinnings =
+          globalQuestionIndex === 0 ? 0 : computeWinAfter(globalQuestionIndex - 1);
 
-        setCurrentWinnings(stageFallback);
-        setCurrentQuestionIndex(0);
+        setCurrentWinnings(previousQuestionWinnings);
         setSelectedAnswer(null);
         setLockedAnswer(null);
         setLastAnswerCorrect(null);
@@ -216,13 +214,6 @@ export function useGameState() {
         setRemovedAnswers([]);
         setAudiencePercents(null);
         setPhoneHint(null);
-        setServedQuestionIdsByStage((served) =>
-          served.map((ids, idx) => {
-            if (idx !== stageIndex) return ids;
-            const firstQuestionId = stages[stageIndex]?.questions?.[0]?.id;
-            return firstQuestionId ? [firstQuestionId] : [];
-          })
-        );
         setGameStatus(GAME_STATUS.PLAYING);
       }
     }
@@ -233,7 +224,6 @@ export function useGameState() {
     livesRemaining,
     currentQuestionIndex,
     questions,
-    stages,
     stageIndex,
     isLastQuestionInStage,
     isLastStage,
