@@ -14,8 +14,10 @@ export default function StartScreen({ onStart }) {
     <div className="screen start-screen">
       <div className="start-content">
         <h1 className="title">
+          <span className="title-kicker">Office Edition</span>
           <span className="title-glow">COCA</span>
-          <span className="title-sub">QUIZ SHOW</span>
+          <span className="title-sub">Quiz Show</span>
+          <span className="title-flair">Climb for The Eye</span>
         </h1>
         <p className="tagline">Slide Your Task, Hide from Bo, Pray for Free Cookies</p>
 

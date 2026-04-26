@@ -68,7 +68,20 @@ export default function GameScreen({ game }) {
           <span className="question-num">{currentLabel}</span>
           <span className="question-cat">{currentQuestion.category}</span>
         </div>
-        <div className="lives">Lives: <strong>{livesRemaining}</strong> / 3</div>
+        <div className="lives" aria-label={`Lives remaining: ${livesRemaining} out of 3`}>
+          <span className="lives-label">Lives</span>
+          <div className="lives-track">
+            {[1, 2, 3].map((life) => (
+              <span
+                key={life}
+                className={`life-chip ${life <= livesRemaining ? 'is-active' : ''}`}
+              >
+                {life <= livesRemaining ? 'LIVE' : 'OUT'}
+              </span>
+            ))}
+          </div>
+          <span className="lives-count">{livesRemaining}/3</span>
+        </div>
         <div />
       </header>
 
