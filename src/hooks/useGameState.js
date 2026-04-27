@@ -18,9 +18,9 @@ const INITIAL_LIVES = 3;
 
 // Stage definitions: each stage uses a single pool, in pool order.
 const STAGES = [
-  { stage: 1, pool: 1, label: 'Office Lore', questionCount: 6 },
-  { stage: 2, pool: 2, label: 'Team Trivia', questionCount: 12 },
-  { stage: 3, pool: 3, label: 'Final Stage', questionCount: 18 },
+  { stage: 1, pool: 1, label: 'Office Lore', questionCount: 5 },
+  { stage: 2, pool: 2, label: 'Team Trivia', questionCount: 10 },
+  { stage: 3, pool: 3, label: 'Final Stage', questionCount: 15 },
 ];
 
 function poolOf(q) {

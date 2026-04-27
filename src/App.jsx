@@ -8,7 +8,7 @@ import StageTransitionScreen from './components/StageTransitionScreen.jsx';
 import { useGameState } from './hooks/useGameState.js';
 import { GAME_STATUS } from './utils/gameLogic.js';
 
-const APP_VERSION = '1.1.4';
+const APP_VERSION = '1.5.0';
 
 export default function App() {
   const game = useGameState();
