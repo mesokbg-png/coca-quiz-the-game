@@ -457,5 +457,32 @@
     "difficulty": 3,
     "pool": 3,
     "category": "Final Stage"
+  },
+  {
+    "id": 64,
+    "question": "Which subject does Rado like?",
+    "answers": ["Mathematics", "Biology", "History", "Chemistry"],
+    "correctAnswer": "History",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 65,
+    "question": "What is Rado's hobby related to collecting?",
+    "answers": ["Stamps", "Sneakers", "Hot Wheels cars", "Books"],
+    "correctAnswer": "Hot Wheels cars",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 66,
+    "question": "What is Rado's biggest panic fear?",
+    "answers": ["Heights", "Public speaking", "Snakes", "Spiders"],
+    "correctAnswer": "Snakes",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
   }
 ]
