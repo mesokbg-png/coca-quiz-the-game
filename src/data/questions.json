@@ -9,15 +9,6 @@
     "category": "Office Lore"
   },
   {
-    "id": 2,
-    "question": "What car does Bogi drive?",
-    "answers": ["Audi", "BMW", "He don't drive, no money", "Metro"],
-    "correctAnswer": "Audi",
-    "difficulty": 1,
-    "pool": 1,
-    "category": "Office Lore"
-  },
-  {
     "id": 3,
     "question": "Where is the best place for lunch?",
     "answers": ["BILLA", "Expensive restaurant", "FoodMood", "Baker Brothers"],
@@ -481,6 +472,15 @@
     "question": "What is Rado's biggest panic fear?",
     "answers": ["Heights", "Public speaking", "Snakes", "Spiders"],
     "correctAnswer": "Snakes",
+    "difficulty": 3,
+    "pool": 3,
+    "category": "Final Stage"
+  },
+  {
+    "id": 67,
+    "question": "What's written on the wall in 'Bo's' apartment?",
+    "answers": ["InFramed", "UnFramed", "ImFamous", "unFlamed"],
+    "correctAnswer": "UnFramed",
     "difficulty": 3,
     "pool": 3,
     "category": "Final Stage"

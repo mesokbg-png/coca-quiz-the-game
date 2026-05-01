@@ -72,6 +72,17 @@ function buildStages(allQuestions) {
   }));
 }
 
+function pickReplacementQuestion(currentStage, questions, servedQuestionIdsByStage, stageIndex) {
+  const servedIds = new Set(servedQuestionIdsByStage[stageIndex] ?? []);
+  const selectedIds = new Set(questions.map((q) => q.id));
+  const available = (currentStage?.poolQuestions ?? []).filter(
+    (q) => !servedIds.has(q.id) && !selectedIds.has(q.id)
+  );
+
+  const replacement = pickRandom(available);
+  return replacement ? shuffleQuestionAnswers(replacement) : null;
+}
+
 function offsetForStage(stages, stageIndex) {
   let offset = 0;
   for (let i = 0; i < stageIndex; i++) offset += stages[i].questions.length;
@@ -109,6 +120,38 @@ export function useGameState() {
 
   const isLastStage = stageIndex >= stages.length - 1;
   const isLastQuestionInStage = currentQuestionIndex >= questions.length - 1;
+
+  const replaceCurrentQuestion = useCallback(() => {
+    const nextQuestion = pickReplacementQuestion(
+      currentStage,
+      questions,
+      servedQuestionIdsByStage,
+      stageIndex
+    );
+    if (!nextQuestion) return false;
+
+    setStages((prevStages) =>
+      prevStages.map((stage, idx) => {
+        if (idx !== stageIndex) return stage;
+        const nextQuestions = [...stage.questions];
+        nextQuestions[currentQuestionIndex] = nextQuestion;
+        return {
+          ...stage,
+          questions: nextQuestions,
+        };
+      })
+    );
+
+    setServedQuestionIdsByStage((served) =>
+      served.map((ids, idx) =>
+        idx === stageIndex && !ids.includes(nextQuestion.id)
+          ? [...ids, nextQuestion.id]
+          : ids
+      )
+    );
+
+    return true;
+  }, [currentQuestionIndex, currentStage, questions, servedQuestionIdsByStage, stageIndex]);
 
   const startGame = useCallback(() => {
     const nextStages = buildStages(questionsData);
@@ -203,6 +246,7 @@ export function useGameState() {
         setCurrentWinnings(fallback);
         setGameStatus(GAME_STATUS.GAME_OVER);
       } else {
+        replaceCurrentQuestion();
         const previousQuestionWinnings =
           globalQuestionIndex === 0 ? 0 : computeWinAfter(globalQuestionIndex - 1);
 
@@ -227,6 +271,7 @@ export function useGameState() {
     stageIndex,
     isLastQuestionInStage,
     isLastStage,
+    replaceCurrentQuestion,
   ]);
 
   const continueToNextStage = useCallback(() => {
@@ -281,36 +326,9 @@ export function useGameState() {
     if (gameStatus !== GAME_STATUS.PLAYING) return false;
     if (usedLifelines.rerollQuestion) return false;
 
-    const servedIds = new Set(servedQuestionIdsByStage[stageIndex] ?? []);
-    const selectedIds = new Set(questions.map((q) => q.id));
-    const available = (currentStage?.poolQuestions ?? []).filter(
-      (q) => !servedIds.has(q.id) && !selectedIds.has(q.id)
-    );
+    const replaced = replaceCurrentQuestion();
+    if (!replaced) return false;
 
-    const replacement = pickRandom(available);
-    if (!replacement) return false;
-
-    const nextQuestion = shuffleQuestionAnswers(replacement);
-
-    setStages((prevStages) =>
-      prevStages.map((stage, idx) => {
-        if (idx !== stageIndex) return stage;
-        const nextQuestions = [...stage.questions];
-        nextQuestions[currentQuestionIndex] = nextQuestion;
-        return {
-          ...stage,
-          questions: nextQuestions,
-        };
-      })
-    );
-
-    setServedQuestionIdsByStage((served) =>
-      served.map((ids, idx) =>
-        idx === stageIndex && !ids.includes(nextQuestion.id)
-          ? [...ids, nextQuestion.id]
-          : ids
-      )
-    );
     setUsedLifelines((u) => ({ ...u, rerollQuestion: true }));
     setSelectedAnswer(null);
     setLockedAnswer(null);
@@ -322,11 +340,7 @@ export function useGameState() {
   }, [
     gameStatus,
     usedLifelines.rerollQuestion,
-    servedQuestionIdsByStage,
-    stageIndex,
-    questions,
-    currentStage,
-    currentQuestionIndex,
+    replaceCurrentQuestion,
   ]);
 
   const resetToStart = useCallback(() => {
