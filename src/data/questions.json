@@ -479,8 +479,8 @@
   {
     "id": 67,
     "question": "What's written on the wall in 'Bo's' apartment?",
-    "answers": ["InFramed", "UnFramed", "ImFamous", "unFlamed"],
-    "correctAnswer": "UnFramed",
+    "answers": ["Inframed", "Unframed", "Imhungry", "Unflamed"],
+    "correctAnswer": "Unframed",
     "difficulty": 3,
     "pool": 3,
     "category": "Final Stage"

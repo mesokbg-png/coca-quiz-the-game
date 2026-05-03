@@ -29,11 +29,11 @@ export default function StartScreen({ onStart }) {
           <ul>
             <li>Answer questions alone, don't ask the host for answers (He doesn't know hehe).</li>
             <li>The game has multiple stages — Stage 1 is <strong>Office Lore</strong>, Stage 2 is <strong>Team Trivia</strong>, and Stage 3 <strong>Mysterous Questions</strong> is the final and hardest round full of custom personal questions</li>
+            <li>Total questions to answer 30 (5-10-15 based on stage), There is 64 total questions that can be served from the pool.</li>
             <li>Every correct answer moves you up closer to <strong>The GRAND PRICE!</strong></li>
-            <li>Pass the safe thresholds to get one bonus day home office.</li>
-            <li>Whoever beat Stage 3 first, you win the <strong>grand prize</strong>.</li>
-            <li>Use 'Jokers' wisely or TDP will call you next.</li>
-            <li>No time limit, but after 17:00 the host is gone.</li>
+            <li>You have 3 lives each time you lose you will be served new question, loosing all your lives you fail the game but you can start over</li>
+            <li>Use 'Jokers' wisely. They reset when you advance to next stage.</li>
+            <li>No time limit, but you are racing with each team member.</li>
           </ul>
         </div>
       </div>
