@@ -19,7 +19,7 @@ export default function IntroScreen({ onContinue }) {
         <div className="intro-logo">
           <img src={mainLogo} alt="Knuckle Team" className="intro-logo-img" />
         </div>
-        <h1 className="intro-title">Tokens Are Gone - THE GAME</h1>
+        <h1 className="intro-title">Who will win the GRAND PRICE?</h1>
         <p className="intro-prompt">Press <kbd>SPACE</kbd> to continue</p>
       </div>
     </div>

@@ -14,10 +14,9 @@ export default function StartScreen({ onStart }) {
     <div className="screen start-screen">
       <div className="start-content">
         <h1 className="title">
-          <span className="title-kicker">Office Edition</span>
           <span className="title-glow">COCA</span>
           <span className="title-sub">Quiz Show</span>
-          <span className="title-flair">Climb for The Eye</span>
+
         </h1>
         <p className="tagline">Slide Your Task, Hide from Bo, Pray for Free Cookies</p>
 
@@ -29,10 +28,10 @@ export default function StartScreen({ onStart }) {
           <h3>How to play</h3>
           <ul>
             <li>Answer questions alone, don't ask the host for answers (He doesn't know hehe).</li>
-            <li>The game has multiple stages — Stage 1 is <strong>Office Lore</strong>, Stage 2 is <strong>Team Trivia</strong>, and Stage 3 is the final and hardest round.</li>
-            <li>Every correct answer moves you up closer to 'The Eye' (Окото).</li>
+            <li>The game has multiple stages — Stage 1 is <strong>Office Lore</strong>, Stage 2 is <strong>Team Trivia</strong>, and Stage 3 <strong>Mysterous Questions</strong> is the final and hardest round full of custom personal questions</li>
+            <li>Every correct answer moves you up closer to <strong>The GRAND PRICE!</strong></li>
             <li>Pass the safe thresholds to get one bonus day home office.</li>
-            <li>If you beat Stage 3, you win the <strong>grand prize</strong>.</li>
+            <li>Whoever beat Stage 3 first, you win the <strong>grand prize</strong>.</li>
             <li>Use 'Jokers' wisely or TDP will call you next.</li>
             <li>No time limit, but after 17:00 the host is gone.</li>
           </ul>
